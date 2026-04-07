@@ -1,25 +1,23 @@
-<h1> [Your Project Title] </h1>
+<h1> Customer Segmentation & Marketing Campaign Analysis </h1>
 
 ## 1. Project Overview
-This project analyzes business data to extract insights, improve decision-making, and identify key trends. The primary focus is to **[Your Problem Statements]**(mention business objectives, such as optimizing sales, reducing operational costs, customer segmentation, etc.).
+This project analyzes customer data from a marketing campaign to extract insights, improve targeting strategies, and optimize business performance.
 
 Key Objectives:
-- Objective 1: (E.g., Analyze customer purchasing patterns)
-- Objective 2: (E.g., Forecast future sales using machine learning)
-- Objective 3: (E.g., Identify high-value customer segments)
+- Analyze customer demographics and purchasing behavior
+- Identify factors influencing customer spending and response to campaigns
+- Segment customers based on income, spending, and family status
+- Evaluate past marketing campaign performance
 
 ## 2. Data Sources
-- [Dataset 1](link) - Description of dataset (e.g., Sales data for 2020–2023)
-- [Dataset 2](link) – Description of dataset (e.g., Customer demographic information)
-- ...
+supermarket.csv – Contains customer demographics, purchase history, and campaign responses (Includes variables such as income, education, marital status, number of children, and product spending)
 
 ## 3. Technologies Used
-- Programming Language: Python (e.g., Pandas, NumPy)
+- Programming Language: Python (Pandas, NumPy)
 - Visualization: Matplotlib, Seaborn, Plotly
 - Interactive Dashboard: Tableau
 - Version Control: Git
 - Others: Jupyter Notebook
-- ...
 
 ## 4. Project Structure
 
@@ -30,28 +28,28 @@ Key Objectives:
 │   ├── raw            <- Data from third party sources.
 │   └── cleaned        <- The data that has been cleaned.
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── notebooks          <- Jupyter notebooks.
 │
-├── reports            <- Generated analysis as PowerPoint, PDF, LaTeX, etc.
-|   ├── slide          <- Generated PowerPoint
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-└── src                <- Source code for use in this project.
+└── reports            <- Generated analysis as PowerPoint, PDF, LaTeX, etc.
+    ├── slide          <- Generated PowerPoint
+    └── figures        <- Generated graphics and figures to be used in reporting
 
 ```
 
 ## 5. Summary of Finding
-### 5.1 Business Insight
-In this section, you can present the **actionable insights** derived from the analysis results.
-### 5.2 Actionable Recommendation
-In this section, you can offer **actionable business recommendations** to address the identified problems.
+5.1 Business Insights
+- Income and Household Composition Are the Primary Drivers of Spending
+- Distinct High-Value Segments Show Different Campaign Responsiveness
+- Spending Does Not Guarantee Engagement
+- Wine and Meat Products Drive Revenue Across Segments
+
+5.2 Actionable Recommendations
+- Implement Segmentation-Based Marketing Strategy
+- Maximize High-Value, High-Response Segment (Childless Customers)
+- Improve Engagement for High-Value Familie
+- Activate Medium-Spending Segment as a Growth Opportunity
 
 ## 6. Contact
-- Name: 
-- Email:
-- Linkedin:
+- Name: Canly Hansen Sudirman
+- Email: canlyhansen@gmail.com
+- Linkedin: https://www.linkedin.com/in/canly-hansen-sudirman-a426298b/
