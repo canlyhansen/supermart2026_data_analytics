@@ -31,8 +31,6 @@ supermarket.csv – Contains customer demographics, purchase history, and campai
 ├── notebooks          <- Jupyter notebooks.
 │
 └── reports            <- Generated analysis as PowerPoint, PDF, LaTeX, etc.
-    ├── slide          <- Generated PowerPoint
-    └── figures        <- Generated graphics and figures to be used in reporting
 
 ```
 
